@@ -1,6 +1,9 @@
 # vue-animation
 
 + aos (animation on scroller) 설치
+```
+yarn add aos
+```
 
 + aos script 추가 및 initialize offset 및 duration 설정
 App.js
