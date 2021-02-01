@@ -16,6 +16,7 @@ export default {
     });
   },
 }
+```
 
 + template 에서 애니메이션이 필요한 부분에 data-aos prop 추가
 ```
