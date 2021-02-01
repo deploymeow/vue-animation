@@ -5,8 +5,7 @@
 yarn add aos
 ```
 
-+ aos script 추가 및 initialize offset 및 duration 설정
-App.js
++ aos script 추가 및 initialize offset 및 duration 설정 @ App.vue <script>
 ```
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,7 +20,7 @@ export default {
 }
 ```
 
-+ template 에서 애니메이션이 필요한 부분에 data-aos prop 추가
++ template 에서 애니메이션이 필요한 부분에 data-aos prop 추가 @ Home.vue <template>
 ```
     <section class="card" data-aos="fade-left">
       <img src="../assets/2.jpeg" alt="" />
